@@ -5,7 +5,7 @@
 
 import unittest
 
-from aws_mfa_creds import aws_mfa_creds
+from aws_mfa_creds import mfa_creds
 
 
 class TestAws_mfa_creds(unittest.TestCase):
