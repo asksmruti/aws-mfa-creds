@@ -1,4 +1,3 @@
-"""Console script for aws_mfa_creds."""
 import json
 from aws_mfa_creds.helper import helper
 from aws_mfa_creds.mfa_creds import *
