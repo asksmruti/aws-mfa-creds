@@ -6,7 +6,7 @@ import configparser
 from botocore.exceptions import ClientError
 
 # Setting up logger
-logging.basicConfig(level=logging.CRITICAL,
+logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(name)s - %(levelname)s: %(message)s'
                     )
 logger = logging.getLogger('aws-mfa')
